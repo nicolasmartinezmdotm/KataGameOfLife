@@ -9,7 +9,7 @@ class MainTest {
 
     @Test
     void checkIfThereIsABoard() {
-        String result = gameOfLife.Board();
+        String result = gameOfLife.GameOfLife();
 
         assertEquals("""
                 ........
